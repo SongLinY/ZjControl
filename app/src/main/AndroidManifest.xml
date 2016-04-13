@@ -15,6 +15,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SettingsActivity"
+            android:label="设置">
+
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="关于">
+
+        </activity>
+        <activity
+            android:name=".FeedbackActivity"
+            android:label="意见反馈">
+
+        </activity>
+        <activity
+            android:name=".UserInfoActivity"
+            android:label="用户信息">
+
+        </activity>
+        <activity
+            android:name=".EditProfileActivity"
+            android:label="编辑资料">
+
+        </activity>
     </application>
 
 </manifest>
