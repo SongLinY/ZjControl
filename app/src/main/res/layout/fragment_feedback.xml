@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="请输入你的宝贵建议"
+        android:id="@+id/input_feedback"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:id="@+id/submit_feedback"
+        android:textSize="28dp"
+        android:background="#4052b5" />
+
+</LinearLayout>
