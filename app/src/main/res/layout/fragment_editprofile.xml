@@ -3,6 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/editProfileToolBar"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:background="#5198e4">
+    </android.support.v7.widget.Toolbar>
+
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -104,5 +111,5 @@
             android:text="保存"
             android:id="@+id/save_button"
             android:textSize="28dp"
-            android:background="#4052b5" />
+            android:background="#5198e4" />
 </LinearLayout>

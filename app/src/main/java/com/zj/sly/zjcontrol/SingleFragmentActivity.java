@@ -11,7 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 /**
  * Created by LS on 2016/4/3.
  */
-public abstract class SingleFragmentActivity extends AppCompatActivity{
+public abstract class SingleFragmentActivity extends Activity{
     protected abstract Fragment createFragment();
 
     @Override
