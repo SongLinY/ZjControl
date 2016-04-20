@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zj/sly/zjcontrol/Air_condition_setting_activity.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zj/sly/zjcontrol/Freezer_setting_activity.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zj/sly/zjcontrol/Monitoring_setting_activity.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zj/sly/zjcontrol/Setting_Fragment.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zj/sly/zjcontrol/Setting_activity.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zj/sly/zjcontrol/SingleFragmentActivity.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zj/sly/zjcontrol/Television_setting_activity.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/arrow_down_float.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/arrow_left_float.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/arrow_right_float.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/arrow_up_float.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_jog_dial_sound_off.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_jog_dial_sound_on.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_lock_power_off_alpha.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_lock_silent_mode.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_media_play.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_home.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_play_clip.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/television.jpg" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/air_condition_setting.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/freezer_setting.xml" charset="UTF-8" />
