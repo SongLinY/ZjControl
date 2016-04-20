@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:layout_gravity="center_horizontal|top">
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_gravity="center_horizontal|bottom">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/start_ImageButton"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/ic_lock_power_off_alpha"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_temperature"
+            android:id="@+id/add_temperature_Button"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="100dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reduce_temperature"
+            android:id="@+id/reduce_temperature_Button"
+            android:layout_gravity="center"
+            android:layout_marginTop="-60dp"
+            android:layout_marginRight="100dp"/>
+    </FrameLayout>
+</FrameLayout>

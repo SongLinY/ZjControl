@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="385dp"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_yinliang"
+                android:id="@+id/add_yinliang_Button"
+                android:layout_gravity="center_horizontal|top" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reduce_yinlaing"
+                android:id="@+id/reduce_yinliang_Button"
+                android:layout_gravity="center_horizontal|bottom" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="111dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="140dp">
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="52dp"
+                android:id="@+id/voice_stop_Button"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_lock_silent_mode"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="40dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_pindao"
+                android:id="@+id/add_pindao_Button"
+                android:layout_gravity="center_horizontal|top" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reduce_pindao"
+                android:id="@+id/reduce_pindao_Button"
+                android:layout_gravity="center_horizontal|bottom" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.88">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/start_television_Button"
+            android:layout_gravity="left|bottom"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/ic_lock_power_off_alpha"/>
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:text="待机"
+            android:id="@+id/wait_Button"
+            android:layout_gravity="left|bottom"
+            android:layout_marginLeft="250dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="277dp"
+            android:layout_gravity="center_horizontal|top">
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/menu_ImageButton"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_menu_home"/>
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/top_float_ImageButton"
+                android:layout_gravity="top|center"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/arrow_up_float"/>
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/down_float_ImageButton"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/arrow_down_float"/>
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/right_float_ImageButton"
+                android:layout_gravity="left"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="100dp"
+                android:background="@drawable/arrow_left_float"/>
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/left_float_ImageButton"
+                android:layout_gravity="right"
+                android:layout_marginTop="125dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/arrow_right_float"/>
+        </FrameLayout>
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:text="@string/returnButton"
+            android:id="@+id/return_Button"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginBottom="0dp"/>
+
+    </FrameLayout>
+
+</LinearLayout>

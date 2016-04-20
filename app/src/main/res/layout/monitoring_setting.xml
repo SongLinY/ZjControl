@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="383dp"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/start_monitoring_ImageButton"
+            android:layout_gravity="center"
+            android:layout_marginTop="-30dp"
+            android:background="@drawable/ic_lock_power_off_alpha"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/up_ImageButton"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/arrow_up_float"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/left_ImageButton"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="-30dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/arrow_left_float"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/down_ImageButton"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="90dp"
+            android:background="@drawable/arrow_down_float"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/right_ImageButton"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginTop="-30dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/arrow_right_float"/>
+    </FrameLayout>
+</FrameLayout>

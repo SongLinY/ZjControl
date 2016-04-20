@@ -39,6 +39,18 @@
             android:label="编辑资料">
 
         </activity>
+        <activity
+            android:name=".Air_condition_setting_activity"
+            android:label="我是air_condition"/>
+        <activity
+            android:name=".Freezer_setting_activity"
+            android:label="我是freezer"/>
+        <activity
+            android:name=".Monitoring_setting_activity"
+            android:label="我是monitoring"/>
+        <activity
+            android:name=".Television_setting_activity"
+            android:label="我是television"/>
     </application>
 
 </manifest>
