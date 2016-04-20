@@ -1,26 +1,29 @@
-package com.example.administrator.project_2;
+package com.zj.sly.zjcontrol;
 
+import android.app.Activity;
+
+
+import android.app.Fragment;
+import android.app.FragmentManager;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
+
 
 /**
  * Created by Administrator on 2016/4/20.
  */
-public abstract class SingleFragmentActivity extends FragmentActivity
+public abstract class SingleFragmentActivity extends Activity
 {
-    protected abstract Fragment create_Fragment();
+    protected abstract Fragment createFragment();
     @Override
-    public void onCreate(Bundle savedInstanceState)
+    protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_setting);
-        FragmentManager fm = getSupportFragmentManager();
+        setContentView(R.layout.activity_main);
+        FragmentManager fm = getFragmentManager();
         Fragment fragment = fm.findFragmentById(R.id.fragmentContainer);
         if (fragment == null)
         {
-            fragment = create_Fragment();
+            fragment = createFragment();
             fm.beginTransaction().add(R.id.fragmentContainer,fragment).commit();
         }
     }

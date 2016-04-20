@@ -23,7 +23,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/add_temperature"
+            android:text="升温"
             android:id="@+id/add_temperature_Button"
             android:layout_gravity="center|top"
             android:layout_marginTop="100dp"
@@ -31,7 +31,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/reduce_temperature"
+            android:text="降温"
             android:id="@+id/reduce_temperature_Button"
             android:layout_gravity="center"
             android:layout_marginTop="-60dp"

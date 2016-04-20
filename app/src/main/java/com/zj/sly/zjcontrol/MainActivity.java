@@ -5,22 +5,9 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.os.Bundle;
 
-public class MainActivity extends Activity {
-
+public class MainActivity extends SingleFragmentActivity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        FragmentManager fm = getFragmentManager();
-        Fragment fragment;
-        fragment = fm.findFragmentById(R.id.fragmentContainer);
-
-        if(fragment == null){
-            fragment = new MainFragment();
-            fm.beginTransaction().add(R.id.fragmentContainer,fragment).commit();
-        }else{
-            //什么都不做
-        }
+    protected Fragment createFragment() {
+        return new MainFragment();
     }
 }

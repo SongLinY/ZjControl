@@ -15,13 +15,13 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/add_yinliang"
+                android:text="加音量"
                 android:id="@+id/add_yinliang_Button"
                 android:layout_gravity="center_horizontal|top" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/reduce_yinlaing"
+                android:text="减音量"
                 android:id="@+id/reduce_yinliang_Button"
                 android:layout_gravity="center_horizontal|bottom" />
         </FrameLayout>
@@ -45,13 +45,13 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/add_pindao"
+                android:text="加频道"
                 android:id="@+id/add_pindao_Button"
                 android:layout_gravity="center_horizontal|top" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/reduce_pindao"
+                android:text="减频道"
                 android:id="@+id/reduce_pindao_Button"
                 android:layout_gravity="center_horizontal|bottom" />
         </FrameLayout>
@@ -126,7 +126,7 @@
         <Button
             android:layout_width="90dp"
             android:layout_height="50dp"
-            android:text="@string/returnButton"
+            android:text="返回"
             android:id="@+id/return_Button"
             android:layout_gravity="center_horizontal|bottom"
             android:layout_marginLeft="-10dp"

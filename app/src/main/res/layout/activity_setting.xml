@@ -6,7 +6,7 @@
         <TextView
             android:layout_width="385dp"
             android:layout_height="100dp"
-            android:text="@string/shebei"
+            android:text="设备"
             style="?android:listSeparatorTextViewStyle"
             android:textSize="20dp"
             android:textColor="#336699"/>
@@ -14,24 +14,24 @@
             android:layout_width="385dp"
             android:layout_height="55dp"
             android:id="@+id/monitoring_Button"
-            android:text="@string/monitoring_text"
+            android:text="遥控器"
             android:layout_marginTop="60dp"/>
         <Button
             android:layout_width="385dp"
             android:layout_height="55dp"
             android:id="@+id/television_Button"
-            android:text="@string/television_text"
+            android:text="电视机"
             android:background="@drawable/television"/>
         <Button
             android:layout_width="385dp"
             android:layout_height="55dp"
             android:id="@+id/freezer_Button"
-            android:text="@string/freezer_text"
+            android:text="电冰箱"
             android:layout_marginBottom="0dp"/>
         <Button
             android:layout_width="385dp"
             android:layout_height="55dp"
             android:id="@+id/air_condition_Button"
-            android:text="@string/air_condition_text"
+            android:text="扫地机器人"
             android:layout_marginBottom="220dp"/>
 </LinearLayout>

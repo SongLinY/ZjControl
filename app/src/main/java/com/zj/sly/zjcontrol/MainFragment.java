@@ -43,8 +43,26 @@ public class MainFragment extends Fragment implements android.view.View.OnClickL
         // 加上这句设置为全屏 不加则只隐藏title
         //setContentView(R.layout.activity_main);
         //initView();
+        //initViewPage();
+        //initEvent();
+    }
+
+    public View onCreateView(LayoutInflater inflater,ViewGroup parent,Bundle savedInstanceState){
+        View v = inflater.inflate(R.layout.activity_fragment,parent,false);
+        mViewPager = (ViewPager) v.findViewById(R.id.id_viewpager);
+        // 初始化三个LinearLayout
+        mTabFirst = (LinearLayout) v.findViewById(R.id.id_tab_first);
+        mTabScene = (LinearLayout) v.findViewById(R.id.id_tab_scene);
+        mTabSetting = (LinearLayout) v.findViewById(R.id.id_tab_setting);
+
+        // 初始化三个按钮
+        mFirstImg = (ImageButton) v.findViewById(R.id.id_tab_first_img);
+        mSceneImg = (ImageButton)v.findViewById(R.id.id_tab_setting_img);
+        mSettingImg = (ImageButton) v.findViewById(R.id.id_tab_setting_img);
+
         initViewPage();
         initEvent();
+        return v;
     }
 
     private void initEvent() {
@@ -91,21 +109,7 @@ public class MainFragment extends Fragment implements android.view.View.OnClickL
     /**
      * 初始化设置
      */
-    public View onCreateView(LayoutInflater inflater,ViewGroup parent,Bundle savedInstanceState){
-        View v = inflater.inflate(R.layout.fragment_main,parent,false);
-        mViewPager = (ViewPager) v.findViewById(R.id.id_viewpager);
-        // 初始化三个LinearLayout
-        mTabFirst = (LinearLayout) v.findViewById(R.id.id_tab_first);
-        mTabScene = (LinearLayout) v.findViewById(R.id.id_tab_scene);
-        mTabSetting = (LinearLayout) v.findViewById(R.id.id_tab_setting);
 
-        // 初始化三个按钮
-        mFirstImg = (ImageButton) v.findViewById(R.id.id_tab_first_img);
-        mSceneImg = (ImageButton)v.findViewById(R.id.id_tab_setting_img);
-        mSettingImg = (ImageButton) v.findViewById(R.id.id_tab_setting_img);
-
-        return v;
-    }
 
     /*private void initView() {
         View view = inflater.inflate(R.layout.fragment_main,container,false);
@@ -127,7 +131,7 @@ public class MainFragment extends Fragment implements android.view.View.OnClickL
     private void initViewPage() {
 
         // 初始化三个布局
-        LayoutInflater mLayoutInflater = LayoutInflater.from(this);
+        LayoutInflater mLayoutInflater = LayoutInflater.from(getActivity());
         View tab01 = mLayoutInflater.inflate(R.layout.message, null);
         View tab02 = mLayoutInflater.inflate(R.layout.scene, null);
         View tab03 = mLayoutInflater.inflate(R.layout.setting, null);

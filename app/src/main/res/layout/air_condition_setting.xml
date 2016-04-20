@@ -15,7 +15,7 @@ android:layout_height="match_parent">
     <Button
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:text="@string/model"
+        android:text="模型"
         android:id="@+id/model_Button"
         android:layout_gravity="right|top"
         android:layout_marginRight="90dp"
@@ -33,7 +33,7 @@ android:layout_height="match_parent">
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/add_temperature"
+        android:text="温度"
         android:id="@+id/add_temperature_Button"
         android:layout_gravity="top|center_vertical"
         android:layout_marginTop="150dp"
@@ -42,7 +42,7 @@ android:layout_height="match_parent">
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/reduce_temperature"
+        android:text="调温"
         android:id="@+id/reduce_temperature_Button"
         android:layout_gravity="right|center_vertical"
         android:layout_marginTop="-10dp"

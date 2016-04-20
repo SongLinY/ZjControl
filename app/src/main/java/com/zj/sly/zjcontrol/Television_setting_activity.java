@@ -1,11 +1,12 @@
-package com.example.administrator.project_2;
+package com.zj.sly.zjcontrol;
 
-import android.support.v4.app.Fragment;
+
+import android.app.Fragment;
 
 public class Television_setting_activity extends SingleFragmentActivity
 {
     @Override
-    protected Fragment create_Fragment()
+    protected Fragment createFragment()
     {
         return new Television_setting_fragment();
     }
