@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FragmentContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/crime_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/sence_hint"
+        android:layout_marginTop="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sence_title_label"
+        android:id="@+id/textView"
+        android:textSize="40px"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/relativeLayout" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout"
+        android:layout_below="@+id/crime_title"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/crime_list_item_dateView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="54px"
+            android:text="请添加设备"
+            android:layout_marginTop="54dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="54px"
+            android:text="请添加设备"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/crime_list_item_dateView"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="34dp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="54px"
+            android:text="请添加设备"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</RelativeLayout>

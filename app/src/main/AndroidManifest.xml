@@ -51,6 +51,9 @@
         <activity
             android:name=".Television_setting_activity"
             android:label="我是television"/>
+        <activity
+            android:name=".addSenceActivity"
+            android:label="@string/app_name1" />
     </application>
 
 </manifest>
