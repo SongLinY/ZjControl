@@ -1,8 +1,6 @@
 package com.zj.sly.zjcontrol;
 
-import android.app.Activity;
 import android.app.Fragment;
-import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -12,7 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-import android.view.Window;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
@@ -57,7 +54,7 @@ public class MainFragment extends Fragment implements android.view.View.OnClickL
 
         // 初始化三个按钮
         mFirstImg = (ImageButton) v.findViewById(R.id.id_tab_first_img);
-        mSceneImg = (ImageButton)v.findViewById(R.id.id_tab_setting_img);
+        mSceneImg = (ImageButton)v.findViewById(R.id.id_tab_scene_img);
         mSettingImg = (ImageButton) v.findViewById(R.id.id_tab_setting_img);
 
         initViewPage();

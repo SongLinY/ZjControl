@@ -11,7 +11,7 @@ import android.widget.Button;
 /**
  * Created by Administrator on 2016/4/20.
  */
-public class Setting_Fragment extends Fragment
+public class MessageFragment extends Fragment
 {
     private Button mMonitoring_Button;
     private Button mTelevision_Button;
@@ -26,7 +26,7 @@ public class Setting_Fragment extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState)
     {
-        View view = inflater.inflate(R.layout.activity_setting,parent,false);
+        View view = inflater.inflate(R.layout.message,parent,false);
         //电视机页面
         mTelevision_Button = (Button) view.findViewById(R.id.television_Button);
         mTelevision_Button.setOnClickListener(new View.OnClickListener()

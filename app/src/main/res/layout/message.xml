@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
+        <Button
+            android:layout_width="385dp"
+            android:layout_height="55dp"
+            android:id="@+id/monitoring_Button"
+            android:text="遥控器"
+            android:layout_marginTop="60dp"/>
+        <Button
+            android:layout_width="385dp"
+            android:layout_height="55dp"
+            android:id="@+id/television_Button"
+            android:text="电视机"
+            android:background="@drawable/television"/>
+        <Button
+            android:layout_width="385dp"
+            android:layout_height="55dp"
+            android:id="@+id/freezer_Button"
+            android:text="电冰箱"
+            android:layout_marginBottom="0dp"/>
+        <Button
+            android:layout_width="385dp"
+            android:layout_height="55dp"
+            android:id="@+id/air_condition_Button"
+            android:text="扫地机器人"
+            android:layout_marginBottom="220dp"/>
 </LinearLayout>
