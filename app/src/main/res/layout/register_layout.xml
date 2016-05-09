@@ -5,11 +5,11 @@
     android:background="@android:drawable/bottom_bar"
     android:orientation="vertical" >
 
-    <LinearLayout
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/loginToolBar"
+        android:layout_height="?attr/actionBarSize"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:background="#666" >
-
+        android:background="#5198e4">
         <!--返回-->
         <ImageButton
             android:layout_width="wrap_content"
@@ -18,19 +18,18 @@
             android:layout_centerVertical="true"
             android:background="@android:drawable/ic_menu_revert"
             android:textColor="#ffffff"
-            android:layout_gravity="center"
+            android:layout_gravity="left"
             android:id="@+id/register_back"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="注册"
-
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
             android:layout_gravity="center"
-            android:layout_marginLeft="160dp" />
-    </LinearLayout>
+            />
+    </android.support.v7.widget.Toolbar>
 
     <LinearLayout
         android:orientation="vertical"
@@ -53,7 +52,6 @@
             <EditText
                 android:layout_width="100dp"
                 android:layout_height="20dp"
-
                 android:textColorHint="#666"
                 android:singleLine="true"
                 android:id="@+id/register_number"
@@ -63,8 +61,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:text="验证手机"
-
-
                 android:background="#777"
                 android:id="@+id/verify_button"
                 android:layout_gravity="center"
@@ -87,11 +83,9 @@
                 android:layout_width="100dp"
                 android:layout_height="20dp"
                 android:layout_gravity="center|right"
-
                 android:textColorHint="#666"
                 android:singleLine="true"
                 android:id="@+id/register_verification_code"
-
                 android:layout_marginLeft="20dp" />
         </LinearLayout>
 
@@ -103,7 +97,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:text="用户名"
-
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp" />
 
@@ -111,7 +104,6 @@
                 android:layout_width="100dp"
                 android:layout_height="20dp"
                 android:layout_gravity="center|right"
-
                 android:textColorHint="#666"
                 android:singleLine="true"
                 android:id="@+id/register_name"
@@ -126,7 +118,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:text="密码"
-
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp" />
 
@@ -134,7 +125,6 @@
                 android:layout_width="100dp"
                 android:layout_height="20dp"
                 android:layout_gravity="center|right"
-
                 android:textColorHint="#666"
                 android:singleLine="true"
                 android:id="@+id/register_password1"
@@ -150,7 +140,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:text="确认密码"
-
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp" />
 

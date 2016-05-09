@@ -1,10 +1,13 @@
 package com.zj.sly.zjcontrol;
 
 import android.app.Fragment;
+import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +15,11 @@ import android.view.ViewGroup;
 
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import com.zj.sly.zjcontrol.User.LoginActivity;
+
+import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,7 +40,10 @@ public class MainFragment extends Fragment implements android.view.View.OnClickL
     private ImageButton mFirstImg;
     private ImageButton mSceneImg;
     private ImageButton mSettingImg;
-
+    //创建ToolBar
+    private Toolbar mMainToolbar;
+    //
+    private TextView mTitleTextView;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,6 +67,23 @@ public class MainFragment extends Fragment implements android.view.View.OnClickL
         mFirstImg = (ImageButton) v.findViewById(R.id.id_tab_first_img);
         mSceneImg = (ImageButton)v.findViewById(R.id.id_tab_scene_img);
         mSettingImg = (ImageButton) v.findViewById(R.id.id_tab_setting_img);
+
+        //初始化ToolBar
+        mMainToolbar = (Toolbar) v.findViewById(R.id.mainToolBar);
+        mMainToolbar.setLogo(R.drawable.ic_menu_home);//用户头像，后期需要从数据库中获取
+        //mMainToolbar.setTitle("登录/注册");//有个点击事件，点击后跳转到登录注册界面，登录后从数据库获取用户名显示
+        //int titleId = Resources.getSystem().getIdentifier("tool_bar_title","id","android");
+        //TextView tvTitle = (TextView) v.findViewById(titleId);
+        mTitleTextView = (TextView) v.findViewById(R.id.title_main);
+        //跳转到登录界面
+        //需要显示返回值
+        mTitleTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), LoginActivity.class);
+                startActivity(i);
+            }
+        });
 
         initViewPage();
         initEvent();

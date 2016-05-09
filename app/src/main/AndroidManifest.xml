@@ -15,41 +15,41 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SettingsActivity"
+        <activity android:name=".Setting.SettingsActivity"
             android:label="设置">
 
         </activity>
         <activity
-            android:name=".AboutActivity"
+            android:name=".Setting.AboutActivity"
             android:label="关于">
 
         </activity>
         <activity
-            android:name=".FeedbackActivity"
+            android:name=".Setting.FeedbackActivity"
             android:label="意见反馈">
 
         </activity>
         <activity
-            android:name=".UserInfoActivity"
+            android:name=".Setting.UserInfoActivity"
             android:label="用户信息">
 
         </activity>
         <activity
-            android:name=".EditProfileActivity"
+            android:name=".Setting.EditProfileActivity"
             android:label="编辑资料">
 
         </activity>
         <activity
-            android:name=".Air_condition_setting_activity"
+            android:name=".Home_page.Air_condition_setting_activity"
             android:label="我是air_condition"/>
         <activity
-            android:name=".Freezer_setting_activity"
+            android:name=".Home_page.Freezer_setting_activity"
             android:label="我是freezer"/>
         <activity
-            android:name=".Monitoring_setting_activity"
+            android:name=".Setting.Monitoring_setting_activity"
             android:label="我是monitoring"/>
         <activity
-            android:name=".Television_setting_activity"
+            android:name=".Home_page.Television_setting_activity"
             android:label="我是television"/>
         <activity
             android:name=".addSenceActivity"

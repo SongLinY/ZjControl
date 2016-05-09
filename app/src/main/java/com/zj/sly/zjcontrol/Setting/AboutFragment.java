@@ -1,4 +1,4 @@
-package com.zj.sly.zjcontrol;
+package com.zj.sly.zjcontrol.Setting;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.zj.sly.zjcontrol.R;
 
 /**
  * Created by LS on 2016/4/3.

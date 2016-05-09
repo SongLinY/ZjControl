@@ -1,4 +1,4 @@
-package com.zj.sly.zjcontrol;
+package com.zj.sly.zjcontrol.Home_page;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
+
+import com.zj.sly.zjcontrol.R;
 
 /**
  * Created by Administrator on 2016/4/20.

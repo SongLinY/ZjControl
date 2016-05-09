@@ -1,4 +1,4 @@
-package com.zj.sly.zjcontrol;
+package com.zj.sly.zjcontrol.Setting;
 
 import android.app.Fragment;
 import android.content.Intent;
@@ -10,6 +10,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.zj.sly.zjcontrol.R;
 
 /**
  * Created by LS on 2016/4/3.

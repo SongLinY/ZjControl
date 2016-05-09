@@ -4,7 +4,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <include layout="@layout/top_layout" />
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mainToolBar"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:background="#5198e4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/title_main"
+            android:gravity = "left"
+            android:maxLines="1"
+            android:textColor="black"
+            android:textSize = "16sp"
+            tools:text="登录/注册"/>
+
+    </android.support.v7.widget.Toolbar>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/id_viewpager"

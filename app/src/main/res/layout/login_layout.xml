@@ -5,35 +5,33 @@
     android:background="@android:drawable/bottom_bar"
     android:orientation="vertical" >
 
-    <LinearLayout
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/registerToolBar"
+        android:layout_height="?attr/actionBarSize"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:background="#666" >
+        android:background="#5198e4">
 
-    <!--返回-->
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:drawable/ic_menu_revert"
-        android:textColor="#ffffff"
-        android:layout_gravity="center" />
+        <!--返回-->
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_menu_revert"
+            android:textColor="#ffffff"
+            android:layout_gravity="left" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="用户登录"
-
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
-            android:layout_gravity="center"
-            android:layout_marginLeft="160dp" />
-    </LinearLayout>
+            android:layout_gravity="center" />
+        </android.support.v7.widget.Toolbar>
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
 
         <LinearLayout
             android:orientation="horizontal"
@@ -89,20 +87,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:text="立即注册>"
-
-
                 android:id="@+id/register_text"
                 android:layout_gravity="center|left"
-                android:layout_marginLeft="10dp" />
+                />
             <!--蓝色-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:text="忘记密码?"
-
-
                 android:id="@+id/missing_text"
-                android:layout_gravity="center"
+                android:layout_gravity="center|right"
                 android:layout_marginLeft="250dp" />
             <!--灰色-->
         </LinearLayout>

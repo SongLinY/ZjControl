@@ -1,4 +1,4 @@
-package com.zj.sly.zjcontrol;
+package com.zj.sly.zjcontrol.Setting;
 
 import android.app.ListFragment;
 import android.content.Intent;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.zj.sly.zjcontrol.R;
 
 /**
  * Created by LS on 2016/4/3.
@@ -18,7 +20,7 @@ public class SettingsFragment extends ListFragment{
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ArrayAdapter<String> adapter = new ArrayAdapter(getActivity(),R.layout.list_item,R.id.tv_list,names);
+        ArrayAdapter<String> adapter = new ArrayAdapter(getActivity(), R.layout.list_item,R.id.tv_list,names);
         setListAdapter(adapter);
         setHasOptionsMenu(true);
     }

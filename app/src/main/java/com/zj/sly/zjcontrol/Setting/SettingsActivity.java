@@ -1,12 +1,13 @@
-package com.zj.sly.zjcontrol;
+package com.zj.sly.zjcontrol.Setting;
 
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.widget.ImageView;
+
+import com.zj.sly.zjcontrol.R;
 
 /**
  * Created by LS on 2016/4/3.
