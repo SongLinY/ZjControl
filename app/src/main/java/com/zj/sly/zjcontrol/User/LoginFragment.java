@@ -46,12 +46,14 @@ public class LoginFragment extends Fragment{
         mLoginToolBar = (Toolbar)v.findViewById(R.id.loginToolBar);
 
         mLoginUserNameEditText = (EditText) v.findViewById(R.id.user_name);
-
+        String name = mLoginUserNameEditText.getText().toString();
         mLoginUserPswEditText = (EditText) v.findViewById(R.id.user_password);
-
+        String psw = mLoginUserPswEditText.getText().toString();
         mLoginButton = (Button) v.findViewById(R.id.login_button);
         //返回首页,并将用户信息传回
         mLoginButton.setOnClickListener(new View.OnClickListener() {
+            //进行用户名(name)和密码(psw)的验证，如果登录成功，则跳转
+            // 不成功则弹出密码错误或用户名与密码不匹配
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getActivity(), MainActivity.class);
@@ -74,7 +76,8 @@ public class LoginFragment extends Fragment{
         mLoginTextView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent i = new Intent(getActivity(), MissingActivity.class);
+                startActivity(i);
             }
         });
 

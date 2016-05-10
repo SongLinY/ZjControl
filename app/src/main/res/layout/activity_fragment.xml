@@ -8,17 +8,17 @@
         android:id="@+id/mainToolBar"
         android:layout_height="?attr/actionBarSize"
         android:layout_width="match_parent"
-        android:background="#5198e4">
+        android:background="@android:drawable/bottom_bar">
+
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/title_main"
-            android:gravity = "left"
+            android:gravity = "center"
             android:maxLines="1"
-            android:textColor="black"
             android:textSize = "16sp"
-            tools:text="登录/注册"/>
+            android:text="登录/注册"/>
 
     </android.support.v7.widget.Toolbar>
 
