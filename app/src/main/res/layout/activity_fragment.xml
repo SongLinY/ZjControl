@@ -8,7 +8,7 @@
         android:id="@+id/mainToolBar"
         android:layout_height="?attr/actionBarSize"
         android:layout_width="match_parent"
-        android:background="@android:drawable/bottom_bar">
+        android:background="#ff336699">
 
 
         <TextView

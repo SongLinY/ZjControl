@@ -1,6 +1,6 @@
 package com.zj.sly.zjcontrol.User;
 
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 
 /**
  * Created by asus on 2016/5/9.

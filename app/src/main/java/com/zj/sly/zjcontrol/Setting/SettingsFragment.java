@@ -1,8 +1,11 @@
 package com.zj.sly.zjcontrol.Setting;
 
-import android.app.ListFragment;
+
+
 import android.content.Intent;
 import android.os.Bundle;
+
+import android.support.v4.app.ListFragment;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -12,7 +15,7 @@ import com.zj.sly.zjcontrol.R;
 /**
  * Created by LS on 2016/4/3.
  */
-public class SettingsFragment extends ListFragment{
+public class SettingsFragment extends ListFragment {
     protected String[]names = {"用户信息","意见反馈","关于"};
     private ListView mListView;
 

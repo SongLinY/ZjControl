@@ -1,8 +1,10 @@
 package com.zj.sly.zjcontrol.Setting;
 
-import android.app.Activity;
-import android.app.Fragment;
-import android.app.FragmentManager;
+import android.support.v4.app.FragmentActivity;
+
+
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.widget.ImageView;
@@ -12,7 +14,7 @@ import com.zj.sly.zjcontrol.R;
 /**
  * Created by LS on 2016/4/3.
  */
-public class SettingsActivity extends Activity {
+public class SettingsActivity extends FragmentActivity {
     private ImageView mImageView;
     private Toolbar mSettingsToolBar;
     @Override
@@ -20,8 +22,8 @@ public class SettingsActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.setting);
 
-        mSettingsToolBar.setTitle("设置");
-        FragmentManager fm = getFragmentManager();
+       // mSettingsToolBar.setTitle("设置");
+        FragmentManager fm = getSupportFragmentManager();
         Fragment fragment = fm.findFragmentById(R.id.settings_container);
         if (fragment == null){
             fragment = new SettingsFragment();
